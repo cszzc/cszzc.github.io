@@ -493,7 +493,7 @@ CC-0
 
 
 
-&lt;div id=&#34;chart-623481957&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-893426175&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -511,7 +511,7 @@ CC-0
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-623481957&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-893426175&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
