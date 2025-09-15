@@ -452,9 +452,6 @@
   .me-2 {
     margin-inline-end: calc(var(--spacing) * 2);
   }
-  .me-2\.5 {
-    margin-inline-end: calc(var(--spacing) * 2.5);
-  }
   .prose {
     color: var(--tw-prose-body);
     max-width: 65ch;
@@ -1217,9 +1214,6 @@
   }
   .h-2 {
     height: calc(var(--spacing) * 2);
-  }
-  .h-3\.5 {
-    height: calc(var(--spacing) * 3.5);
   }
   .h-4 {
     height: calc(var(--spacing) * 4);
@@ -2688,25 +2682,10 @@
       }
     }
   }
-  .focus\:z-10 {
-    &:focus {
-      z-index: 10;
-    }
-  }
-  .focus\:text-gray-900 {
-    &:focus {
-      color: var(--color-gray-900);
-    }
-  }
   .focus\:ring-4 {
     &:focus {
       --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-    }
-  }
-  .focus\:ring-gray-200 {
-    &:focus {
-      --tw-ring-color: var(--color-gray-200);
     }
   }
   .focus\:ring-primary-300 {
@@ -3336,11 +3315,6 @@
       display: none;
     }
   }
-  .dark\:border-gray-600 {
-    &:where(.dark, .dark *) {
-      border-color: var(--color-gray-600);
-    }
-  }
   .dark\:border-gray-700 {
     &:where(.dark, .dark *) {
       border-color: var(--color-gray-700);
@@ -3684,13 +3658,6 @@
       }
     }
   }
-  .dark\:hover\:bg-gray-700 {
-    &:where(.dark, .dark *) {
-      &:hover {
-        background-color: var(--color-gray-700);
-      }
-    }
-  }
   .dark\:hover\:bg-primary-400 {
     &:where(.dark, .dark *) {
       &:hover {
@@ -3782,27 +3749,6 @@
     &:where(.dark, .dark *) {
       &:hover {
         color: var(--color-primary-400);
-      }
-    }
-  }
-  .dark\:hover\:text-white {
-    &:where(.dark, .dark *) {
-      &:hover {
-        color: var(--color-white);
-      }
-    }
-  }
-  .dark\:focus\:text-white {
-    &:where(.dark, .dark *) {
-      &:focus {
-        color: var(--color-white);
-      }
-    }
-  }
-  .dark\:focus\:ring-gray-700 {
-    &:where(.dark, .dark *) {
-      &:focus {
-        --tw-ring-color: var(--color-gray-700);
       }
     }
   }
